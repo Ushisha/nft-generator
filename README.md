@@ -21,6 +21,7 @@ This is a project to generate artworks.
 - Semantic HTML5 markup
 - CSS custom properties
 - Vanilla Javascript
+- Affinity Designer
 
 ```JS
 
