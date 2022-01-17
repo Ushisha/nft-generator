@@ -1,11 +1,11 @@
 window.onload = function () {
-  let robothead = new Image()
+  let modelhead = new Image()
   //number of the diffferent head variation, in this case 3
-  let robotheadnum = Math.floor(Math.random() * 3) + 1 //change the number according to the number og the variations
-  console.log(robotheadnum)
-  let robotheadname = 'head' + robotheadnum + '.png'
-  robothead.src = robotheadname
-  robothead.onload = function () {
+  let modelheadnum = Math.floor(Math.random() * 3) + 1 //change the number according to the number og the variations
+  console.log(modelheadnum)
+  let modelheadname = 'head' + modelheadnum + '.png'
+  modelhead.src = `./images/${modelheadname}`
+  modelhead.onload = function () {
     buildrobot()
   }
   function buildrobot() {
@@ -13,6 +13,6 @@ window.onload = function () {
     const ctx = canvas.getContext('2d')
     canvas.width = 400
     canvas.height = 400
-    ctx.drawImage(robothead, (400 - robothead.width) / 2, 50)
+    ctx.drawImage(modelhead, (400 - modelhead.width) / 2, 50)
   }
 }
