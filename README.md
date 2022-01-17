@@ -8,7 +8,7 @@ This is a project to generate artworks.
 
 ### Links
 
-- Live Site URL: []()
+- Live Site URL: [https://avatar-generator-ushisha.netlify.app/](https://avatar-generator-ushisha.netlify.app/)
 
 ## Functionalities
 
