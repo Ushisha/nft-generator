@@ -12,10 +12,10 @@ This is a project to generate Avatar.
 
 ## Built with
 
-- Semantic HTML5 markup
-- CSS
-- Vanilla Javascript
-- Affinity Designer
+- HTML5 - markup
+- CSS - styling
+- Vanilla Javascript - generate random artwork
+- Affinity Designer - design art work
 
 ```JS
 //create image element
