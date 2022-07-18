@@ -1,6 +1,6 @@
 # Avatar Generator
 
-This is a project to generate Avatar.
+This is a simple component to generate Avatar.
 
 ## Screenshot
 
@@ -15,7 +15,7 @@ This is a project to generate Avatar.
 - HTML5 - markup
 - CSS - styling
 - Vanilla Javascript - generate random artwork
-- Affinity Designer - design art work
+- [Affinity Designer](https://affinity.serif.com/en-gb/)- design art work
 
 ```JS
 //create image element
